@@ -6,7 +6,7 @@ services:
     container_name: RubyOnRails
     ports:
       - "8080:3000"
-    # command: sh start.sh
+    # command: yarn install
     volumes:
       - .:/usr/src/app
     # environment:
